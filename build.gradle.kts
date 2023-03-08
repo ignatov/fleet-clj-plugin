@@ -12,7 +12,7 @@ plugins {
 version = "0.1.0"
 
 fleet {
-    fleetVersion.set("1.17.15")
+    fleetVersion.set("1.17.23")
     useNightlyBuilds.set(true)
 
     // presentation
