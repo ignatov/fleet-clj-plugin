@@ -12,7 +12,7 @@ val cljLspPathSettingKey = SettingsKey(
     defaultValue = "",
     supportContexts = false,
     presentableName = "Path of the Clojure language-server executable",
-    locations = setOf(SettingsLocation.PROJECT, SettingsLocation.HOST)
+    locations = setOf(SettingsLocation.HOST)
 )
 
 @Entrypoint
