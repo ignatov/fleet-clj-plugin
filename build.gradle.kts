@@ -17,7 +17,7 @@ fleet {
 
     // presentation
     vendor.set("Sergey Ignatov")
-    readableName.set("Fleet Clojure Plugin")
+    readableName.set("Clojure")
     descriptor.set("A Fleet plugin for Clojure")
 
     workspace {
