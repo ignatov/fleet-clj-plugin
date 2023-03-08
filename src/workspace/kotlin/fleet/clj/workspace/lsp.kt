@@ -32,10 +32,7 @@ interface CljLspController : LspControllerEntity {
 
 class CljLspConfiguration : LspConfiguration {
     override val identifier = "clj-language-server"
-    override val mediaTypes = listOf(
-        MediaType("text", "clj"),
-        MediaType("text", "cljs"),
-    )
+    override val mediaTypes = listOf( MediaType("text", "clj"), MediaType("text", "cljs")) // support file types
 
     override fun createLanguageClient(lifetime: Entity, kernel: Kernel, hostId: HostId): LspLanguageClient {
         return LspLanguageClient(lifetime, kernel, this, hostId)
