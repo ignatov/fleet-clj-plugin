@@ -16,3 +16,5 @@ pluginManagement {
         }
     }
 }
+
+//includeBuild("/Users/ignatov/src/intellij/fleet/gradle-plugin")
